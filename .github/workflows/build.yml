@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: cross-compile-action #分支名字
+          ref: main #分支名字
       - uses: taiki-e/create-gh-release-action@v1
         with:
           changelog: CHANGELOG.md #获取更新日志,需要在changelog添加对应版本的更新日志,否则会失败
