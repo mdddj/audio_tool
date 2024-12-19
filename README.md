@@ -3,14 +3,14 @@
 ## 音频工具
 
 
-获取时长
+get audio duration
 
 ```
 audio_tool --file /Users/ldd/xxx.mp3 
 332000
 ```
 
-格式化显示
+get audio duration and format show
 ```
 audio_tool --file /Users/ldd/xxx.mp3 --covert
 5:23
